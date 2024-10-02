@@ -56,21 +56,33 @@
 
         h2 {
             color: #4a4e99;
+            margin-bottom: 0;
         }
 
         p {
             line-height: 1.6;
             color: #555;
+            text-align: justify;
+            margin-top: 10px;
         }
 
         img {
-            width: 10rem;
+            width: 16rem;
             height: 11rem;
             border: 1px solid black;
             float: left;
             display: block;
             margin: 5px 20px 5px 10px;
             border-radius: 8px;
+        }
+
+        #soccerBall {
+            width: 2rem;
+            height: 2rem;
+            border: none;
+            margin: 0;
+            float: none;
+            display: inline;
         }
 
         aside {
@@ -90,6 +102,7 @@
 
         footer p {
             color: #fff;
+            text-align: center;
         }
 
         footer a {
@@ -105,7 +118,10 @@
 </head>
 <body>
     <header>
-        <h1 id="title">Cristobal's favorite sport  -   Soccer</h1>
+        <h1 id="title">
+            <img id="soccerBall" src="https://cdn-icons-png.flaticon.com/512/33/33736.png" alt="Soccer Ball"> 
+            Cristobal's favorite sport  -   Soccer
+        </h1>
         
     </header>
     <nav>
@@ -116,27 +132,27 @@
     </nav>
     <main>
         <section id="sec1">
-            <img src="./img1" alt="img1">
+            <img src="./images/VillaRealCF.jpg" alt="img1">
             <article>
+                <aside style="width: 10rem; margin: 2rem 0 0 1rem;">At Villarreal C.F., the junior teams are ranked from A to Z based on their skills and age, and I played in the "Benjamin J" category.</aside>
                 <h2>First Steps</h2>
-                <aside>New text complementary for aside</aside>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia dolor totam consequuntur unde officiis, molestias rerum expedita eaque esse accusamus mollitia, vitae quo earum. Assumenda aut explicabo deleniti ab vel!</p>
+                <p>I was born into a family that really loves soccer and athletics. My grandfather taught my cousins and me how to play soccer when we were around 7 years old. We went every weekend to play soccer at a local field in town. All my cousins and even some neighborhood kids often came to be instructed by my grandfather. When I was 10, I traveled to Spain, where I lived for around 3 years. During that time, I was part of a junior soccer team in the city (Villarreal C.F.), where I improved my soccer skills and my passion for the sport. Now, I am 25, and I can say that I have been playing soccer for almost three quarters of my life, and I love it.</p>
             </article>
         </section>
         <section id="sec2">
-            <img style="float: right; margin: 0 10px 0 20px;" src="./img2" alt="img2">
+            <img style="float: right; margin: 0 10px 0 20px;" src="./images/SoccerFamily.jpeg" alt="img2">
             <article>
                 <h2>Soccer Family</h2>
-                <aside style="float: left;">New text complementary for aside</aside>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia dolor totam consequuntur unde officiis, molestias rerum expedita eaque esse accusamus mollitia, vitae quo earum. Assumenda aut explicabo deleniti ab vel!</p>
+                <p>Even now, my family continues to grow, and the new members still have the same passion for soccer that we all share. From my dad (55 years old) to my little niece, who enjoys watching the family soccer games. This image was taken in August of this year (2024) and shows the last family soccer game I played before moving to Canada to continue my studies as a full-stack web developer.</p>
+                <aside style="float: none; margin: 0 19rem 0 0;">My older sister, Agustina, also continues playing soccer actively. Two months ago, she was awarded as the best female goalscorer with 17 goals in a local championship in Manta - Ecuador, the city where she currently lives.</aside>
             </article>
         </section>
         <section id="sec3">
-            <img src="./img3" alt="img3">
+            <img src="./images/UniversityTeam1.jpg" alt="img3">
+            <img style="float: right; margin: 0 10px 0 20px;" src="./images/UniversityTeam2.jpg" alt="img2">
             <article>
                 <h2>Last Game</h2>
-                <aside>New text complementary for aside</aside>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia dolor totam consequuntur unde officiis, molestias rerum expedita eaque esse accusamus mollitia, vitae quo earum. Assumenda aut explicabo deleniti ab vel!</p>
+                <p>I continue playing soccer wherever I go. For university, I had to move to another city, and there, I made a group of friends who also liked playing soccer. That way, I kept playing soccer throughout my engineering career. The picture on the left was taken during the first soccer game I played at university, and the picture on the right is from one of the last soccer games I played before graduating. Now, I'm here in Canada to continue with my personal and professional growth, and I’m sure I’ll make a group of friends to keep playing soccer as a fun hobby.</p>
             </article>
         </section>
     </main>
